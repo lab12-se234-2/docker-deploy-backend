@@ -3,12 +3,5 @@ version = 1
 [[analyzers]]
 name = "docker"
 
-  [analyzers.meta]
-  dockerfile_paths = ["Dockerfile"]
-
 [[analyzers]]
 name = "javascript"
-
-  [analyzers.meta]
-  plugins = ["vue"]
-  environment = ["nodejs"]
